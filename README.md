@@ -1,4 +1,4 @@
-# AutoDM<sup>2</sup>
+# AdaGramp
 
 - AdaGramp can adaptively design a appropriate message passing architecture according to data set distribution for anomaly detection.
 
@@ -27,6 +27,7 @@ torch-cluster == 1.6.1
 torch-scatter == 2.1.1
 torch-sparse == 0.6.17
 torch-spline-conv == 1.2.2
+faiss == 1.7.3
 ```
 ## Run the Experiment
 **1.Performance test with the optimal message passing architecture designed by AdaGramp**
